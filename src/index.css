@@ -1,0 +1,36 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.todo-item span {
+  flex-grow: 1;
+}
+
+
+.todo-item  {
+  background-color: #f05050;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
